@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "roboto", Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(to top left, #0eecf8, #11df33);
+}
+
+.container {
+  width: 500px;
+  background-color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  flex-direction: column;
+  padding: 30px 40px;
+  border-radius: 1rem;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  border-end-end-radius: 50%;
+}
+
+h1 {
+  margin-bottom: 50px;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: center;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+label {
+  margin-bottom: 12px;
+  font-size: 1rem;
+  font-weight: 400px;
+}
+
+textarea,
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px sold #999;
+  resize: none;
+}
+
+textarea {
+  overflow-y: scroll;
+}
+
+input {
+  overflow-x: scroll;
+}
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 14px;
+  font-size: 1.1rem;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 12px;
+  border: 2px solid black;
+  border-end-end-radius: 25px;
+  box-shadow: 0px 5px 1px 2px black;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: 0px 4px 1px 1px black;
+}
+
+#result {
+  font-size: 13px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 80%;
+  min-height: 100px;
+  border-end-end-radius: 50%;
+  background-color: white;
+  overflow-y: scroll;
+}
+
+#h2 {
+  font-size: 1.7rem;
+  font-weight: 500px;
+}

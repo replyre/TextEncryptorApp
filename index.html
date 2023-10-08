@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Text Encryptor</title>
+  </head>
+  <script src="index.js"></script>
+  <body>
+    <div class="container">
+      <h1 class="heading">TeXT EnCryPtor</h1>
+      <label for="message">Message</label>
+      <textarea
+        name="message"
+        id=""
+        cols="50"
+        rows="5"
+        placeholder="Enter your message here"
+      ></textarea>
+      <label for="key">Key</label>
+      <input
+        type="text"
+        name="key"
+        id=""
+        placeholder="Hello World"
+        value="Hello World"
+      />
+      <div class="buttons">
+        <button id="encryptBtn">Encrypt</button>
+        <button id="decryptBtn">Decrypt</button>
+      </div>
+      <h2>Result:</h2>
+      <div id="result"></div>
+    </div>
+  </body>
+</html>
