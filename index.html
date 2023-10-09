@@ -6,23 +6,22 @@
     <link rel="stylesheet" href="style.css" />
     <title>Text Encryptor</title>
   </head>
-  <script src="index.js"></script>
   <body>
     <div class="container">
       <h1 class="heading">TeXT EnCryPtor</h1>
       <label for="message">Message</label>
       <textarea
-        name="message"
-        id=""
+        id="message"
         cols="50"
         rows="5"
         placeholder="Enter your message here"
-      ></textarea>
+      >
+red</textarea
+      >
       <label for="key">Key</label>
       <input
         type="text"
-        name="key"
-        id=""
+        id="key"
         placeholder="Hello World"
         value="Hello World"
       />
@@ -31,7 +30,8 @@
         <button id="decryptBtn">Decrypt</button>
       </div>
       <h2>Result:</h2>
-      <div id="result"></div>
+      <textarea id="result"></textarea>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
