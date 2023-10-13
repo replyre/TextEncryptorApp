@@ -45,12 +45,14 @@ function updateResult(isEncrpting) {
 
   let res = "";
   if (isEncrpting) {
+    console.log(text);
     res = encryption(text, key);
+    console.log(res);
   } else {
     res = decryption(text, key);
   }
-
-  document.getElementById("result").innerHTML = res;
+  document.getElementById("result").innerText = "";
+  document.getElementById("result").innerText = `${res}`;
 }
 
 document.getElementById("encryptBtn").addEventListener("click", () => {
